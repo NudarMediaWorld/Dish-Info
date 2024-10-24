@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 30px;
+} 
+
+ header {
+    height: 100vh;
+    width: 100%;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+}
+
+.navbar {
+    width: 90%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content {
+    position: absolute;
+    left: 7%;
+    top: 33%;
+    z-index: 12;
+}
+
+header .text-content .text {
+    font-size: 20px; 
+    margin-right: 0;
+    margin-left: 0; 
+    color: #111810;
+}
+header .text-content .text-1 {
+    font-size: 20px; 
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-left: 20px; 
+    color: #111810;
+}
+
+header .text-content .name {
+    color: #292827;
+    font-size: 35px;
+    margin: -20px 0 0 -3px;
+}
+
+/* .text, .name {
+    border-left: 4px solid black;
+} */
+
+header .text-content .job {
+    color: #2c3350;
+    font-size: small;
+    line-height: 150%;
+    margin: 5px 0;
+    margin-top: 10px;
+}
+
+.button {
+    margin: 20px 0 0 50 px;
+}
+
+.text-content .button button {
+    outline: none;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: red;
+}
+
+.text-content .button button:hover {
+    transform: scale(0.98);
+}
+
+.img {
+    position: absolute;
+     width: 400px; 
+    height: 85%;
+    right: 50px;
+    bottom: 0;
+    position: absolute;
+} 
+
+.time {
+    margin: 18px;
+    color: #2c3350;
+}
+
+.need {
+    margin-top: 50px;
+}
+
+ul {
+    line-height: 200%;
+}
+
+
+#cart {
+    width: 50px;
+    color: #fff;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
